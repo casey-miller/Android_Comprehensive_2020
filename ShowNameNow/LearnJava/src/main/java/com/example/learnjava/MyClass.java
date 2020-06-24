@@ -71,20 +71,22 @@ public class MyClass {
 
         */
 
-        Microphone mic = new Microphone();
-        mic.color = "Red";
-        mic.name = "Red mic";
-        mic.model = 1;
+        Microphone mic = new Microphone("Red", "Red mic", 1);
+//        mic.color = "Red";
+//        mic.name = "Red mic";
+//        mic.model = 1;
 //        System.out.println(mic.color.toString());
 
-        Microphone otherMic = new Microphone();
-        otherMic.color = "Purple";
-        otherMic.name = "Purple mic";
-        otherMic.model = 1;
+        Microphone otherMic = new Microphone("Purple", "Purple mic", 1);
+        otherMic.setColor("Blue");
+//        otherMic.name = "Purple mic";
+//        otherMic.model = 1;
         otherMic.turnOn();
         otherMic.setVolume();
         otherMic.turnOff();
         System.out.println(otherMic.showDescription());
+
+        otherMic.setColor("Other Mic");
 
     }
 }
