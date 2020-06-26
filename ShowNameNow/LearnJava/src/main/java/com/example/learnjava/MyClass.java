@@ -1,17 +1,60 @@
 package com.example.learnjava;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+
 public class MyClass {
 
     public static void main(String[] args) {
 
-//      Person casey = new Person();
-      Person casey = new Person("Casey", "Miller", 28);
 
-        System.out.println(casey.getAge());
+        // Array Lists
+        ArrayList<java.io.Serializable> name = new ArrayList<>();
+
+        name.add(1);
+        name.add("Hello");
+        System.out.println(name);
+
+        for (Serializable names : name) {
+            System.out.println(name);
+        }
+
+//
+//        int[] myArray = {1, 33, 4, 12};
+//        System.out.println(myArray[3]);
+//
+//        String[] names = {"Casey", "Anthony", "Franklin", "Bob"};
+//        System.out.println(names[0]);
+//
+//        int[] newArray = new int[10];
+//        String[] newNames = new String[5];
+//
+//        newArray[0] = 12;
+//        newArray[1] = 13;
+//
+//
+//        for (int i = 0; i < 4; i++) {
+//            System.out.println("Items: " + names[i]);
+//        }
 
 
 
-
+////      Person casey = new Person();
+//        Person casey = new Person("Casey", "Miller", 28);
+//
+//        System.out.println(casey.getAge());
+//
+//        Employee employee = new Employee();
+//
+//        employee.setAge(23);
+//        System.out.println(employee.getAge());
+//
+//        Manager manager = new Manager();
+//        manager.setFirstName("Jason");
+//        manager.setLastName("Watkins");
+//        manager.setAnnualSalary(45000);
+//        System.out.println(manager.getAnnualSalary());
+//        System.out.println(manager.toString());
 
 
 
