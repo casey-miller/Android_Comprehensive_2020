@@ -4,6 +4,30 @@ public class MyClass {
 
     public static void main(String[] args) {
 
+//      Person casey = new Person();
+      Person casey = new Person("Casey", "Miller", 28);
+
+        System.out.println(casey.getAge());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        /*
         // Variable is a bucket in memory
         String name = "Casey";
@@ -70,7 +94,7 @@ public class MyClass {
         }
 
         */
-
+/*
         Microphone mic = new Microphone("Red", "Red mic", 1);
 //        mic.color = "Red";
 //        mic.name = "Red mic";
@@ -87,6 +111,8 @@ public class MyClass {
         System.out.println(otherMic.showDescription());
 
         otherMic.setColor("Other Mic");
+
+ */
 
     }
 }
